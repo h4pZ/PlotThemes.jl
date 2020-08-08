@@ -17,7 +17,7 @@ colors = [
 background = colorant"#171616"
 
 
-_thems[:hibm] = PlotTheme(
+_themes[:hibm] = PlotTheme(
     bg = background,
     bginside = background,
     fg = colorant"#ADB2B7",
