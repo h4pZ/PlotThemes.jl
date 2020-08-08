@@ -19,7 +19,7 @@ _themes[:hibm] = PlotTheme(
     bg = background,
     bginside = background,
     fg = colorant"#ADB2B7",
-    color_palette = colors,
+    palette = expand_palette(background, colors; lchoices = [57], cchoices = [100]),
     colorgradient = :plasma,
     fgtext = colorant"#FFFFFF",
     fgguide = colorant"#FFFFFF",
