@@ -3,11 +3,11 @@ colors = [
     colorant"#f60157", 
     colorant"#0157f6", 
     colorant"#fcfc50",
-    colorant"#FFFFFF",
+    colorant"#99ffcc",
     colorant"#607889",
     colorant"#70396a"
 ]
-
+]
 background = colorant"#171616"
 
 
