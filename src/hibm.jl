@@ -1,5 +1,3 @@
-import Plots
-
 colors = [
     colorant"#f60157", 
     colorant"#0157f6", 
