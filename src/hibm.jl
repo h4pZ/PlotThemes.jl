@@ -15,9 +15,6 @@ colors = [
 ]
 
 background = colorant"#171616"
-title_font = Plots.font("monospace", pointsize=10, color="#ffffff")
-tick_font = Plots.font("monospace", pointsize=8, color="#96999b")
-legend_font = Plots.font("monospace", pointsize=8, color="#ffffff")
 
 
 _thems[:hibm] = PlotTheme(
@@ -26,9 +23,10 @@ _thems[:hibm] = PlotTheme(
     fg = colorant"#ADB2B7",
     color_palette = colors,
     colorgradient = :plasma,
-    titlefont = title_font,
-    guidefont = title_font,
-    xtickfont = tick_font,
-    ytickfont = tick_font,
-    legendfont = legend_font
+    fgtext = colorant"#FFFFFF",
+    fgguide = colorant"#FFFFFF",
+    fglegend = colorant"#FFFFFF",
+    legendfontcolor = colorant"#FFFFFF",
+    legendtitlefontcolor = colorant"#FFFFFF",
+    titlefontcolor = colorant"#FFFFFF"
 )
