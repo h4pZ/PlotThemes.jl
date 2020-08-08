@@ -1,4 +1,4 @@
-import Plots: font
+import Plots
 
 colors = [
     colorant"#f60157", 
@@ -15,9 +15,9 @@ colors = [
 ]
 
 background = colorant"#171616"
-title_font = font("monospace", pointsize=10, color="#ffffff")
-tick_font = font("monospace", pointsize=8, color="#96999b")
-legend_font = font("monospace", pointsize=8, color="#ffffff")
+title_font = Plots.font("monospace", pointsize=10, color="#ffffff")
+tick_font = Plots.font("monospace", pointsize=8, color="#96999b")
+legend_font = Plots.font("monospace", pointsize=8, color="#ffffff")
 
 
 _thems[:hibm] = PlotTheme(
