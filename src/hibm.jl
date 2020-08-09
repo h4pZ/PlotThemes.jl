@@ -24,7 +24,6 @@ _themes[:hibm] = PlotTheme(
     legendtitlefontcolor = colorant"#96999b",
     palette = expand_palette(background, colors; lchoices = [57], cchoices = [100]),
     colorgradient = :plasma,
-    gridstyle = :dot,
     markerstrokecolor = colorant"#ffffff",
     markerstrokealpha = 0.0,
     titlefontsize = 10,
