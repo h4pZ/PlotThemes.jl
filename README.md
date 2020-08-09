@@ -29,6 +29,7 @@ Currently the following themes are available:
 - `:bright`
 - `:vibrant`
 - `:mute`
+- `:hibm`
 
 When using Plots, a theme can be set using the `theme` function:
 ```julia
@@ -87,6 +88,8 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 ### `:mute`
 ![theme_mute](https://user-images.githubusercontent.com/16589944/70848069-9860bf80-1e6c-11ea-9cac-8a797d526835.png)
 
+### `:mute`
+![theme_hibm]("./.hibm.png")
 
 ## Contributing
 A theme specifies default values for different Plots [attributes](http://docs.juliaplots.org/attributes/).
